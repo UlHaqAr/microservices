@@ -1,0 +1,16 @@
+create empty folder ws2 in system
+open eclipse 
+while opening, it will ask path of workspace. browse ws2
+go to io.spring.start
+maven-java-11-depedency-web-name-microservices
+it will generate zip folder 
+unzip the folder and put it under ws2
+eclipse -> import project -> existing maven project -> select 'microservices' folder
+it will tickmark the pom.xml and show you
+finish
+
+3 microservice/project. each project in each workspace. which means 3 instances of eclipse running. need to give diff port numbers 
+for tomcat
+src/main/resources - application.properties
+server.port=8081 (8080,8082)
+
